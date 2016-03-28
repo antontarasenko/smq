@@ -10,8 +10,10 @@ Each of the queries processes 0.5-10GB of data. Processing up to 1TB per month i
 
 ### [Hacker News](https://news.ycombinator.com/)
 
+Some examples:
+
 * [Most cited books (comments)](hackernews/amazon-books-in-text.sql) - Using links to Amazon.com as citations. Don't include text references. Also see [this thread](https://news.ycombinator.com/item?id=10924741). This and the three next queries can be extended to other items. Examples:
-  - Movies on International Movie Database: `imdb.com/title/tt[0-9]+/`
+  - Movies on Internet Movie Database: `imdb.com/title/tt[0-9]+/`
   - Books on iTunes: `itunes.apple.com/book/id[0-9]+`
   - Apps on Google Play: `play.google.com/store/apps/details?id=.+`
 * [Most cited books (submissions)](hackernews/amazon-books-in-url.sql) - The same, but this counts submitted URLs.

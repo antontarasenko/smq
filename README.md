@@ -10,7 +10,7 @@ Each of the queries processes 0.5-10GB of data. Processing up to 1TB per month i
 
 ### [Hacker News](https://news.ycombinator.com/)
 
-Some examples:
+Some examples (see [`hackernews` directory](hackernews/) for the full list):
 
 * [Most cited books (comments)](hackernews/amazon-books-in-text.sql) - Using links to Amazon.com as citations. Don't include text references. Also see [this thread](https://news.ycombinator.com/item?id=10924741). This and the three next queries can be extended to other items. Examples:
   - Movies on Internet Movie Database: `imdb.com/title/tt[0-9]+/`
@@ -23,7 +23,7 @@ Some examples:
 * [Top authors by median](hackernews/top-authors-median.sql) - List of authors based on the median score. A quick way to find founders and VCs submitting to HN.
 * [Top authors by mean](hackernews/top-authors-mean.sql) - Based on the mean score. Usually implies many low-scored posts with major hits due to the skewed distribution.
 * [Top news sources](hackernews/top-news-sources.sql) - Where most popular news come from? Separated by day of week and hour.
-* [Popular Wikipedia articles](hackernews/wikipedia-pages-in-url.sql) - Counting links to Wikipedia articles. 
+* [Popular Wikipedia articles](hackernews/wikipedia-pages-in-url.sql) - Counting links to Wikipedia articles.
 
 For simple queries, use Hacker News' Algolia search:
 
@@ -54,6 +54,8 @@ Beware, this can quickly exhaust the free 1TB limit.
 ## Usage
 
 ### Web Interface
+
+You can export up to 16,000 rows or 10MB as a `csv` file via web interface. Larger output can be exported through console. Add `LIMIT <n>` to queries to control the number of rows in output.  
 
 1. Locate a query in the repo's folder
 2. Login at <https://bigquery.cloud.google.com/welcome>
@@ -87,6 +89,8 @@ Pull requests are welcomed. Suggestions:
 
 * Adding new data mining queries
 * Rewriting `.sql` files related to Hacker News for Reddit and Wikipedia databases
+
+The [reference](https://cloud.google.com/bigquery/query-reference) for BigQuery's SQL dialect. 
 
 ## Acknowledgements
 

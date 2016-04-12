@@ -8,6 +8,7 @@ Directory [`reports`](reports/) features showcases:
 
 * [Top Hacker News Submissions by Year](reports/hackernews-top-submissions-by-year.md)
 * [Top 100 "Show HN" Projects](reports/hackernews-top-show-hn-100.md)
+* [Top Reddit Submissions by Year](https://github.com/antontarasenko/smq/blob/master/reports/reddit-top-submissions-by-year.md)
 * [Top Reddit IAmA by Year](reports/reddit-top-iama-by-year.md)
 
 Check [`reports`](reports/) for more.

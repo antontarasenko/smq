@@ -1,13 +1,8 @@
-select rt.*
+select *
 from
   (
   select
-    title,
-    id,
-    time,
-    url,
-    score,
-    descendants comments,
+    id, title, time, url, score, descendants comments,
     year(sec_to_timestamp(time)) year,
     rank() over (order by score desc) as rank_total,
     rank() over (partition by year order by score desc) as rank_year
@@ -20,7 +15,7 @@ from
     score >= 0
   order by
     score desc
-  ) rt
-where rt.rank_year <= 10
+  )
+where rank_year <= 10
 order by
-   rt.year, rt.score desc
+   year, score desc

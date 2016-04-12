@@ -5,7 +5,7 @@ select
   url,
   count(url) count_url,
   sum(score) sum_score,
-  sum(descendants) sum_descendants
+  sum(descendants) sum_comments
 from
   [fh-bigquery:hackernews.full_201510]
 where

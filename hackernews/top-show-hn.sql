@@ -1,6 +1,6 @@
 -- List of "Show HN" submissions
 SELECT
-  title, url, score, time, descendants, [by] author
+  id, title, url, score, time, descendants comments, [by] author
 FROM
   [fh-bigquery:hackernews.full_201510]
 WHERE

@@ -2,6 +2,16 @@
 
 A collection of SQL queries to social media datasets. The queries return answers like "Most mentioned books on Hacker News", "Top apps on Reddit", and others. See the [list of queries](#queries) and [how to use them](#usage) below
 
+## Reports
+
+Directory [`reports`](reports/) features showcases:
+
+* [Top Hacker News Submissions by Year](reports/hackernews-top-submissions-by-year.md)
+* [Top 100 "Show HN" Projects](reports/hackernews-top-show-hn-100.md)
+* [Top Reddit IAmA by Year](reports/reddit-top-iama-by-year.md)
+
+Check [`reports`](reports/) for more.
+
 ## Queries
 
 Queries are written for Google BigQuery [free public datasets](https://bigquery.cloud.google.com/) (requires a Google account) and stored in `.sql` files, organized by social media outlet (folder `hackernews` and so on). These datasets are snapshots taken on particular dates, so results do not include post-2015 content.
@@ -87,8 +97,9 @@ See [BigQuery API Quickstart](https://cloud.google.com/bigquery/bigquery-api-qui
 
 Pull requests are welcomed. Suggestions:
 
-* Adding new data mining queries
-* Rewriting `.sql` files related to Hacker News for Reddit and Wikipedia databases
+* Adding new queries
+* Adapting `.sql` files for Hacker News to Reddit and Wikipedia datasets
+* Adding new types of reports to the [`reports`](reports/) section 
 
 The [reference](https://cloud.google.com/bigquery/query-reference) for BigQuery's SQL dialect. 
 

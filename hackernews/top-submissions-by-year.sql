@@ -7,10 +7,10 @@ from
     time,
     url,
     score,
-    descendants,
+    descendants comments,
     year(sec_to_timestamp(time)) year,
-    rank() over (order by score desc) as total_rank,
-    rank() over (partition by year order by score desc) as year_rank
+    rank() over (order by score desc) as rank_total,
+    rank() over (partition by year order by score desc) as rank_year
   from
     [fh-bigquery:hackernews.full_201510]
   where
@@ -21,6 +21,6 @@ from
   order by
     score desc
   ) rt
-where rt.year_rank <= 10
+where rt.rank_year <= 10
 order by
    rt.year, rt.score desc

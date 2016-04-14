@@ -1,4 +1,4 @@
--- Top domains by median and with cur
+-- Top domains by median and with cutoff at minimum 10 submissions
 select
   domain(url) domain,
   count(url) count_url,
@@ -26,5 +26,3 @@ having
   count_url > 10
 order by
   median_score desc
-limit
-  100

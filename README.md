@@ -2,16 +2,28 @@
 
 A collection of SQL queries to social media datasets. The queries return answers like "Most mentioned books on Hacker News", "Top apps on Reddit", and others. See the [list of queries](#queries) and [how to use them](#usage) below
 
+
+## Table of Contents
+
+* [Reports](#reports)
+* [Queries](#queries)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Acknowledgements](#acknowledgements)
+
+
 ## Reports
 
 Directory [`reports`](reports/) features showcases:
 
 * [Top Hacker News Submissions by Year](reports/hackernews-top-submissions-by-year.md)
 * [Top 100 "Show HN" Projects](reports/hackernews-top-show-hn-100.md)
+* [Top HN Authors by H-Index](reports/hackernews-top-authors-by-h-index.md)
 * [Top Reddit Submissions by Year](https://github.com/antontarasenko/smq/blob/master/reports/reddit-top-submissions-by-year.md)
 * [Top Reddit IAmA by Year](reports/reddit-top-iama-by-year.md)
 
 Check [`reports`](reports/) for more.
+
 
 ## Queries
 
@@ -62,6 +74,11 @@ Beware, this can quickly exhaust the free 1TB limit.
   - Edits by organization. Many organizations reserve static IPs. One famous example is [US Congress' edits](https://en.wikipedia.org/wiki/United_States_Congressional_staff_edits_to_Wikipedia). This query is unlikely to return many edits done by a particular organization because the sample table contains only 300M edits. Too diluted to have a representative subset. 
   - Edits by region. The sample is sufficient for statistics by region and other broad characteristics.
 
+### [Stack Exchange](http://stackexchange.com/)
+
+Stack Exchange has its own query system at [http://data.stackexchange.com/](data.stackexchange.com). Check their [top queries](http://data.stackexchange.com/stackoverflow/queries?order_by=favorite) and [try](http://data.stackexchange.com/stackoverflow/query/new) your own. [This post](http://meta.stackexchange.com/questions/2677/database-schema-documentation-for-the-public-data-dump-and-sede) describes the variables.
+
+
 ## Usage
 
 ### Web Interface
@@ -94,6 +111,7 @@ See Felipe Hoffa's [Hacker News notebook](https://github.com/fhoffa/notebooks/bl
 
 See [BigQuery API Quickstart](https://cloud.google.com/bigquery/bigquery-api-quickstart) for examples in Java, Python, C#, PHP, Ruby. You'll need a [credentials file](https://developers.google.com/identity/protocols/application-default-credentials) to run it locally.
 
+
 ## Contributing
 
 Pull requests are welcomed. Suggestions:
@@ -102,9 +120,13 @@ Pull requests are welcomed. Suggestions:
 * Adapting `.sql` files for Hacker News to Reddit and Wikipedia datasets
 * Adding new types of reports to the [`reports`](reports/) section 
 
-The [reference](https://cloud.google.com/bigquery/query-reference) for BigQuery's SQL dialect. 
+The [reference](https://cloud.google.com/bigquery/query-reference) for BigQuery's SQL dialect.
+
 
 ## Acknowledgements
 
-* Discussions on Hacker News and Reddit
 * [Felipe Hoffa](https://twitter.com/felipehoffa) for publishing the datasets
+* Discussions on Hacker News and Reddit. Also, the follow-up discussions:
+  - [Top Hacker News Submissions by Year: 2009–2015](https://news.ycombinator.com/item?id=11468407)
+  - [Websites That Feed Hacker News: Top Sources of Submissions by Median Score](https://news.ycombinator.com/item?id=11499120)
+  - [Top 100 Users on Hacker News by H-Index](https://news.ycombinator.com/item?id=11512455)

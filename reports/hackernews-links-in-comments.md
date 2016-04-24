@@ -1,6 +1,6 @@
 # Most mentioned links in Hacker News comments, 2006–2015
 
-*Most mentioned links in Hacker News comments. Based on query `[links-in-comments.sql](../hackernews/links-in-comments.sql)`. See [README](../README.md) for details.*
+*Most mentioned links in Hacker News comments. Based on query [`links-in-comments.sql`](../hackernews/links-in-comments.sql). See [README](../README.md) for details.*
 
 Rank | Link | Mentions
 :-: | --- | --:
@@ -26,7 +26,7 @@ Rank | Link | Mentions
 20 | [paulgraham.com/say.html](http://www.paulgraham.com/say.html) | [96](https://hn.algolia.com/?query=paulgraham.com/say.html&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
 21 | [paulgraham.com/wealth.html](http://www.paulgraham.com/wealth.html) | [93](https://hn.algolia.com/?query=paulgraham.com/wealth.html&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
 22 | [news.ycombinator.com/formatdoc](http://news.ycombinator.com/formatdoc) | [89](https://hn.algolia.com/?query=news.ycombinator.com/formatdoc&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
-23 | [en.wikipedia.org/wiki/Dunning%25E2%2580%2593Kruger_effect](http://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect) | [89](https://hn.algolia.com/?query=en.wikipedia.org/wiki/Dunning%25E2%2580%2593Kruger_effect&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
+23 | [en.wikipedia.org/wiki/Dunning–Kruger effect](http://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect) | [89](https://hn.algolia.com/?query=en.wikipedia.org/wiki/Dunning%25E2%2580%2593Kruger_effect&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
 24 | [scratch.mit.edu/](http://scratch.mit.edu/) | [86](https://hn.algolia.com/?query=scratch.mit.edu/&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
 25 | [infoq.com/presentations/Simple-Made-Easy](http://www.infoq.com/presentations/Simple-Made-Easy) | [86](https://hn.algolia.com/?query=infoq.com/presentations/Simple-Made-Easy&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
 26 | [news.ycombinator.com/showhn.html](https://news.ycombinator.com/showhn.html) | [85](https://hn.algolia.com/?query=news.ycombinator.com/showhn.html&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
@@ -53,7 +53,6 @@ Rank | Link | Mentions
 47 | [en.wikipedia.org/wiki/Streisand_effect](http://en.wikipedia.org/wiki/Streisand_effect) | [63](https://hn.algolia.com/?query=en.wikipedia.org/wiki/Streisand_effect&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
 48 | [news.ycombinator.com/newsfaq.html](https://news.ycombinator.com/newsfaq.html) | [62](https://hn.algolia.com/?query=news.ycombinator.com/newsfaq.html&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
 49 | [en.wikipedia.org/wiki/Betteridges_Law_of_Headlines](http://en.wikipedia.org/wiki/Betteridges_Law_of_Headlines) | [62](https://hn.algolia.com/?query=en.wikipedia.org/wiki/Betteridges_Law_of_Headlines&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
-50 | [en.wikipedia.org/wiki/Betteridge%26](http://en.wikipedia.org/wiki/Betteridge&#x27;s_law_of_headlines) | [61](https://hn.algolia.com/?query=en.wikipedia.org/wiki/Betteridge%26&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
 51 | [starthq.com](https://starthq.com) | [61](https://hn.algolia.com/?query=starthq.com&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
 52 | [contrastrebellion.com/](http://contrastrebellion.com/) | [61](https://hn.algolia.com/?query=contrastrebellion.com/&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
 53 | [vimeo.com/22053820](http://vimeo.com/22053820) | [60](https://hn.algolia.com/?query=vimeo.com/22053820&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)

@@ -1,6 +1,6 @@
 # Most mentioned links in Hacker News comments, 2006–2015
 
-*Most mentioned links in Hacker News comments. Based on query [`links-in-comments.sql`](../hackernews/links-in-comments.sql). See [README](../README.md) for details.*
+*Most mentioned links in Hacker News comments. Based on query [`links-in-comments.sql`](../hackernews/links-in-comments.sql). See [README](../README.md) for details and folder [`reports`](../reports) for more lists like this.*
 
 Rank | Link | Mentions
 :-: | --- | --:
@@ -16,9 +16,8 @@ Rank | Link | Mentions
 10 | [paulgraham.com/avg.html](http://www.paulgraham.com/avg.html) | [136](https://hn.algolia.com/?query=paulgraham.com/avg.html&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
 11 | [xkcd.com/386/](http://xkcd.com/386/) | [126](https://hn.algolia.com/?query=xkcd.com/386/&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
 12 | [xkcd.com/538/](http://xkcd.com/538/) | [121](https://hn.algolia.com/?query=xkcd.com/538/&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
-13 | [fullmalls.com](http://www.fullmalls.com) | [108](https://hn.algolia.com/?query=fullmalls.com&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
 14 | [codahale.com/how-to-safely-store-a-password/](http://codahale.com/how-to-safely-store-a-password/) | [105](https://hn.algolia.com/?query=codahale.com/how-to-safely-store-a-password/&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
-15 | [etradinglife.com](http://www.etradinglife.com) | [104](https://hn.algolia.com/?query=etradinglife.com&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
+[104](https://hn.algolia.com/?query=etradinglife.com&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
 16 | [news.ycombinator.com/item](http://news.ycombinator.com/item?id=363) | [103](https://hn.algolia.com/?query=news.ycombinator.com/item&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
 17 | [tiobe.com/index.php/content/paperinfo/tpci/index.html](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html) | [101](https://hn.algolia.com/?query=tiobe.com/index.php/content/paperinfo/tpci/index.html&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)
 18 | [youtube.com/watch](http://www.youtube.com/watch?v=dBnniua6-oM) | [97](https://hn.algolia.com/?query=youtube.com/watch&sort=byPopularity&prefix&page=0&dateRange=all&type=comment)

@@ -3,7 +3,7 @@ select
   author, count(*) h_index
 from (
   select
-    [by] author, score, rank() over (partition by [by] order by score desc) item_rank
+    [by] author, score, rank() over (partition by author order by score desc) item_rank
   from
     [fh-bigquery:hackernews.full_201510]
   where

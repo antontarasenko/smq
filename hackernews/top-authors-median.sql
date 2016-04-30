@@ -9,7 +9,8 @@ SELECT
 FROM
   [fh-bigquery:hackernews.full_201510]
 WHERE
-  type = 'story'
+  type = 'story' and
+  dead is null and deleted is null
 GROUP BY
   author, link
 HAVING

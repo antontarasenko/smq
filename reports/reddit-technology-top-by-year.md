@@ -1,6 +1,8 @@
 # Top 10 Posts of /r/technology by Year: 2008–2015
 
-*See [README](../README.md) for details.*
+*Posts are ranked by score. This top is based on the public dataset of Reddit submissions. See [README](../README.md) for details.*
+
+*Other rankings: [`reports`](../reports/)*
 
 ## 2008
 
@@ -41,7 +43,12 @@ Rank | Title | Comments | Score
 2323 | <a href="http://mrdoob.com/lab/javascript/effects/ie6/">Classic IE6 Effect Ported to HTML5</a> | [352](https://www.reddit.com/r/technology/comments/dnvsi/) | 2895
 2515 | <a href="http://i.imgur.com/vIIc1.png">Here's what happens when you try to import your Gmail contacts information into Facebook (PIC)</a> | [667](https://www.reddit.com/r/technology/comments/e4jlr/) | 2787
 2558 | <a href="http://www.metafilter.com/95152/Userdriven-discontent#3256046">Quote that sums up Google and other Web 2.0 companies: "If you’re not paying for it, you’re not the customer; you are the product being sold."</a> | [476](https://www.reddit.com/r/technology/comments/dcvt3/) | 2760
-2645 | <a href="http://youtube-global.blogspot.com/2010/03/broadcast-yourself.html">"...Viacom continuously and secretly uploaded its content to YouTube, even while publicly complaining about its presence there. It hired no fewer than 18 different marketing agencies to upload its content to the site. It deliberately "roughed up" the videos to make them look stolen"</a> | [450](https://www.reddit.com/r/technology/comments/bf4i1/) | 2706
+2645 | <a href="http://youtube-global.blogspot.com/2010/03/broadcast-yourself.html">"...Viacom continuously and secretly uploaded its 
+content to YouTube, even while publicly 
+complaining about its presence there. It hired no 
+fewer than 18 different marketing agencies to 
+upload its content to the site. It deliberately 
+"roughed up" the videos to make them look stolen"</a> | [450](https://www.reddit.com/r/technology/comments/bf4i1/) | 2706
 2723 | <a href="http://www.cracked.com/funny-4003-the-pirate-bay/?wa_user1=1&amp;wa_user2=topic&amp;wa_user3=topic&amp;wa_user4=topics">"According to the RIAA, the Pirate Bay has stolen about 46 times more dollars than actually exist on Earth"</a> | [511](https://www.reddit.com/r/technology/comments/dqf80/) | 2661
 2740 | <a href="http://imgur.com/51f9p.jpg">Remember when I said that netbooks aren't good at anything...</a> | [894](https://www.reddit.com/r/technology/comments/du447/) | 2653
 2841 | <a href="http://vinhboy.com/blog/2010/03/25/how-to-get-free-comcast-internet/">Hello Reddit, I got a cease and desist from Comcast for this blog post (through my host). Want to read it before I take it down? Thanks.</a> | [1137](https://www.reddit.com/r/technology/comments/e2yv2/) | 2602

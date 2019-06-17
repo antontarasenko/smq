@@ -52,15 +52,12 @@ Rank | Title | Comments | Score
 Rank | Title | Comments | Score
 :-: | --- | --: | --:
 10 | <a href="http://tech.mit.edu/V132/N61/swartz.html">Aaron Swartz commits suicide</a> | [546](https://news.ycombinator.com/item?id=5046845) | 2103
-212 | <a href="https://education.github.com/pack">GitHub Student Developer Pack</a> | [207](https://news.ycombinator.com/item?id=8422087) | 1022
 219 | <a href="https://messages.yale.edu/messages/University/univmsgs/detail/121669">Paul Hudak, co-creator of Haskell, has died</a> | [89](https://news.ycombinator.com/item?id=9465999) | 1014
-279 | <a href="http://eduardo.intermeta.com.br/this-is-how-visa-works">This is how Visa works</a> | [97](https://news.ycombinator.com/item?id=4396414) | 931
 299 | <a href="http://web.mit.edu/jemorris/humor/500-miles">The 500-mile email</a> | [139](https://news.ycombinator.com/item?id=9338708) | 915
 320 | <a href="http://mosh.mit.edu/?">Mosh: SSH for 2012</a> | [193](https://news.ycombinator.com/item?id=3819382) | 900
 487 | <a href="http://www.feynmanlectures.caltech.edu/I_toc.html">The Feynman Lectures on Physics, Volume I</a> | [112](https://news.ycombinator.com/item?id=6380187) | 776
 517 | <a href="http://www.feynmanlectures.caltech.edu/">Feynman Lectures on Physics now free online</a> | [93](https://news.ycombinator.com/item?id=8216546) | 755
 675 | <a href="http://www.cs.usfca.edu/~galles/visualization/Algorithms.html">Best Data Structure Visualizations</a> | [45](https://news.ycombinator.com/item?id=9230841) | 698
-740 | <a href="http://www.theguardian.com/commentisfree/2013/aug/19/david-miranda-schedule7-danger-reporters">David Miranda, schedule 7 and the danger that all reporters now face</a> | [152](https://news.ycombinator.com/item?id=6240151) | 681
 
 ## PDF files
 
